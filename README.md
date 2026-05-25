@@ -1,21 +1,16 @@
-# 📊 Data Cleaning & Reporting Automation
+# 📊 Data Cleaning & Reporting Automation Project
 
-## 📌 Project Overview
-This project automates the process of data cleaning, analysis, and reporting using Python. It helps transform raw data into meaningful insights with minimal manual effort.
-
----
-
-## ⚙️ Features
-- Removal of duplicate records
-- Handling missing values
-- Automated data preprocessing
-- Generation of summary statistics report
-- Data visualization using charts
-- Export of cleaned data to Excel
+## 📌 Problem Statement
+Raw datasets often contain missing values, duplicates, and inconsistent formats. Manual cleaning is time-consuming and inefficient.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🎯 Objective
+To automate data cleaning, preprocessing, and reporting using Python.
+
+---
+
+## ⚙️ Tools & Technologies
 - Python 🐍
 - Pandas
 - Matplotlib
@@ -24,27 +19,32 @@ This project automates the process of data cleaning, analysis, and reporting usi
 
 ---
 
-## 📁 Project Files
-- `sales_data.csv` → Raw dataset
-- `cleaned_data.xlsx` → Cleaned dataset
-- `summary_report.xlsx` → Statistical summary
-- `chart.png` → Data visualization
-- `data_cleaning_reporting_automation.ipynb` → Main notebook
+## 🔄 Workflow
 
----
-
-## 📈 Workflow
-1. Load dataset
-2. Remove duplicates
+1. Load raw dataset (`sales_data.csv`)
+2. Remove duplicate records
 3. Handle missing values
-4. Perform data analysis
-5. Generate reports
-6. Create visualizations
+4. Perform exploratory data analysis
+5. Generate summary report (`summary_report.xlsx`)
+6. Create visualization (`chart.png`)
+7. Export cleaned dataset (`cleaned_data.xlsx`)
 
 ---
 
-## 🎯 Outcome
-This project demonstrates how raw data can be converted into structured insights using automation techniques, improving efficiency in data analysis workflows.
+## 📁 Project Files
+- sales_data.csv → Raw dataset
+- cleaned_data.xlsx → Cleaned dataset
+- summary_report.xlsx → Statistical summary
+- chart.png → Data visualization
+- .ipynb notebook → Automation code
+
+---
+
+## 📈 Outcome
+- Reduced manual data cleaning effort
+- Automated reporting process
+- Improved data quality for analysis
+- Generated visual insights from raw data
 
 ---
 
@@ -53,5 +53,5 @@ Payal Sahoo
 
 ---
 
-## 📌 Note
-This project is built as part of a data analytics learning assignment.
+## 🚀 Conclusion
+This project demonstrates how automation can simplify data preprocessing and improve efficiency in data analysis workflows.
